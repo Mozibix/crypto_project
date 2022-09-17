@@ -13,7 +13,6 @@
     height: 7.7rem;
 
     .main_sec {
-      // border: 5px solid #f0f0f0;
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
       background-color: #fff;
       display: flex;
@@ -27,7 +26,6 @@
         font-weight: 800;
         height: 1px;
         background-color: #fff;
-        // z-index: 1;
       }
       .text_amount {
         inset-inline-start: -0.5rem;
@@ -54,7 +52,6 @@
         .coinlogo {
           img {
             width: 3rem;
-            // height: 1px;
             inset: -1rem;
           }
         }

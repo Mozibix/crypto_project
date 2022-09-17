@@ -27,12 +27,12 @@
     }
     .dash_right_section {
       border: 1px solid #f0f0f0;
-
       margin-left: 1rem;
-      width: 82.2%;
+      width: 81.5%;
 
       .top_section {
         text-align: left;
+
         &_inner {
           inset-inline-start: -32rem;
         }
@@ -43,14 +43,8 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
-        .dashboard_api {
-          &_inner {
-          }
-        }
         .dashboard_coin_details_sec {
-          margin-left: -30rem;
-          width: 20rem;
-          inset-inline-start: 31rem;
+          margin-left: 1.5rem;
 
           &_inner {
             width: 20rem;
@@ -64,7 +58,7 @@
         }
         margin-top: 1rem;
         &_inner {
-          margin-left: 1.5rem;
+          margin-left: 0.5px;
         }
       }
     }

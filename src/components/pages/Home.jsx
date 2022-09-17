@@ -7,7 +7,6 @@ import img from "../Images/pix6.png";
 import FlexBox from "./FlexBox";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Team from "./Team";
 import Community from "./Community";
 
 export const Home = () => {
@@ -164,7 +163,7 @@ export const Home = () => {
           <FlexBox />
         </div>
       </section>
-
+      
       <section>
         <div className="get_started">
           <div className="get_started_contents">
@@ -179,23 +178,6 @@ export const Home = () => {
         </div>
       </section>
 
-      <section>
-        <div className="team">
-          <div className="team_inner">
-            <div className="team_header">
-              <p
-                data-aos="fade-down-right"
-                dos-aos-easing="linear"
-                className="team_header_text"
-              >
-                TEAM
-              </p>
-            </div>
-
-            <Team />
-          </div>
-        </div>
-      </section>
 
       <section>
         <Community />

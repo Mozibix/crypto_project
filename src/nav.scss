@@ -9,6 +9,11 @@
   align-items: center;
   justify-content: space-between;
 
+@media screen and (max-width:768px) {
+  background-color: black;
+  
+}
+
   .logo {
     margin-left: 2rem;
     font-weight: 900;
@@ -30,6 +35,11 @@
       list-style: none;
       display: flex;
       color: snow;
+
+      @media screen and (max-width:768px) {
+        display: none;
+        
+      }
 
       li {
         margin: 0.3rem;
@@ -53,5 +63,10 @@
     border-radius: 1rem;
     border: none;
     color: snow;
+
+    @media screen and (max-width:768px) {
+      display: none;
+      
+    }
   }
 }
