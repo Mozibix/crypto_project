@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import img1 from "../img/cryft-logo.png";
 import { Link } from "react-router-dom";
-import "../styles/signup.css";
+import "../styles/signup.scss";
 
 const Signup = () => {
   let navigate = useNavigate();
@@ -15,9 +15,9 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = {
-      email: email,
-      password: password,
-      referral: referral,
+      email,
+      password,
+      referral,
     };
 
     await fetch(formEndpoint, {
@@ -89,7 +89,7 @@ const Signup = () => {
         </div>
         <div className="submit">
           <Link to="/">
-            <button type="submit" onClick={handleSubmit}>
+            <button type="submit" onClick={handleSubmit()}>
               Sign Up
             </button>
           </Link>

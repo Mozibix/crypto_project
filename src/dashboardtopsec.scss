@@ -37,13 +37,22 @@
             font-size: 14px;
             text-transform: uppercase;
             text-decoration: none;
-            background-color: red;
+            background-color: #000;
             border-radius: 100vmax;
-            color: #fff;
+        
             font-weight: 600;
             text-align: center;
             border: none;
             cursor: pointer;
+
+            .button{
+              text-decoration: none;
+              color: #fff;
+
+              &:hover{
+                color: red;
+              }
+            }
           }
         }
       }

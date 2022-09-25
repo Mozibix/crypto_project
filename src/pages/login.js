@@ -17,11 +17,11 @@ const Login = ({ label, text, type, placeholder }) => {
           <Link to="/">Phone</Link> | <Link to="/">Email</Link>
         </div>
         <div className="form--input">
-          <label for="phone">Email</label>
+          <label htmlFor="phone">Email</label>
           <input type="email" placeholder="email or Username" required />
         </div>
         <div className="form--input">
-          <label for="password">Password</label>
+          <label htmlFor="password">Password</label>
           <input type="password" placeholder="Password" required />
         </div>
         <div className="submit">

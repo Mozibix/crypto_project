@@ -16,7 +16,7 @@ const Dashboard = () => {
       <div className="dashboard_main">
         <div className="dashboard_main_inner">
           <div className="user_name_sec">
-            <p>Hello PLUTO</p>
+            <p>Welcome,</p>
           </div>
           <div className="dash_left_section">
             <div className="dash_navbar">

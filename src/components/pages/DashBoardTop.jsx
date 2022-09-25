@@ -23,7 +23,7 @@ const DashTop = (props) => {
                 </Link>
               </li>
               <li>
-                <Link to="" className="button blue">
+                <Link to="/" className="button blue">
                   {props.bottom_sec_btn}
                 </Link>
               </li>
